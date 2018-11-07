@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_gravity="bottom"
+            android:text="this is pallete"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/getVibrantSwatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        android:text="获取到充满活力的这种色调"/>
+
+    <TextView
+        android:id="@+id/getDarkVibrantSwatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        android:text="获取充满活力的黑"/>
+
+    <TextView
+        android:id="@+id/getLightVibrantSwatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        android:text="获取充满活力的亮"/>
+    <TextView
+        android:id="@+id/getMutedSwatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        android:text="获取柔和的色调"/>
+    <TextView
+        android:id="@+id/getDarkMutedSwatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        android:text="获取柔和的黑"/>
+
+    <TextView
+        android:id="@+id/getLightMutedSwatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        android:text="获取柔和的亮"/>
+
+</LinearLayout>
